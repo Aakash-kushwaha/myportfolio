@@ -7,18 +7,20 @@ import { skills } from '../data';
 
 const Skills = () => {
   return (
-    <section className='bg-tertiary py-12 '>
-      <div className='container mx-auto '>
+    <section id='Skills' className='bg-black py-12 '>
+   
+      <div className='container mx-auto '> <h1 className='text-center mb-9  text-2xl'>Skills</h1>
         <div
-          className='grid grid-cols-8 md:grid-flow-col '
+          className='grid lg:grid-cols-5 md:grid-cols-5  grid-cols-3' 
         >
           {skills.map((skill, index) => {
             return (
-              <div  
-                className='flex items-center justify-center hover:shadow-2xl '
+              <div   
+                className='justify-center item-center mx-auto gap-1 pb-4'
                 key={index}
               >
-                <img  className='lg:h-20 shadow-2xl ' src={skill.image} alt='' />
+                <img  className='lg:h-20 shadow-2xl mx-auto w-[80px] h-[90px]  rounded-xl '  src={skill.image} alt='' />
+                <p className=' text-center '>{skill.skill}</p>
               </div>
             );
           })}

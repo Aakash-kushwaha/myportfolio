@@ -36,9 +36,9 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import Chakra from './assets/img/skills/Chakra.png';
-import SkillImg5 from './assets/img/skills/Bootstrap.png';
-import mui from './assets/img/skills/materialui.png';
-
+import SkillImg5 from './assets/img/skills/bootstrap.png';
+import tailwind from './assets/img/skills/tailwind.png';
+import materialui from './assets/img/skills/materialui.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
@@ -54,7 +54,10 @@ export const navigation = [
     name: 'about',
     href: 'about',
   },
-
+  {
+    name: 'Skills',
+    href: 'Skills',
+  },
   {
     name: 'Projects',
     href: 'projects',
@@ -71,6 +74,7 @@ export const social = [
   {
     icon: <FiLinkedin />,
     href: 'https://www.linkedin.com/in/aakash-kushwaha-0336a4214/',
+
   },
   {
     icon: <FiGithub />,
@@ -108,8 +112,8 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'Nordstormrack',
-    category: 'UI/UX design',
-    description:"It's an E-commerce website allow users to search and buy products ",
+    // category: 'UI/UX design',
+    description:"Nordstrom launched in 2014, while Nordstrom Rack launched in 2018.  the department store is renown for its collection of high-end fashion, homewares, and accessories. ",
   
     code:"https://github.com/Aakash-kushwaha/NordstromRack",
     demo:"https://startling-hotteok-ee84f0.netlify.app/",
@@ -119,8 +123,8 @@ export const projectsData = [
     id: '2',
     image: Project2,
     name: 'Flipkart',
-    category: 'UI/UX design',
-    description:"It's an E-commerce website allow users to search and buy products ",
+    // category: 'UI/UX design',
+    description:"Flipkart is an Indian e-commerce company, headquartered in Bangalore, Karnataka, India, and incorporated in Singapore as a private limited company. ",
     code:"https://github.com/Aakash-kushwaha/Flipkart-Clone",
     demo:"https://aakash-kushwaha.github.io/Flipkart-Clone/",
     TechStack: "TeckStack :HTML5 || CSS3 || JAVASCRIPT || Bootstrap || React-Slick ",
@@ -129,8 +133,8 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'Sephora',
-    category: 'branding',
-    description:"It's an E-commerce website allow users to search and buy products ",
+    // category: 'branding',
+    description:"Sephora is an E-commerce online store which is located in the U.S Which allow to buy products . It is a powerful beauty presence in countries around the world. ",
     code:"https://github.com/Aakash-kushwaha/sephora",
     demo:"https://epic-meninsky-be2645.netlify.app/",
     TechStack: "TeckStack : HTML5 || CSS3 || JAVASCRIPT",
@@ -158,31 +162,45 @@ export const projectsNav = [
 export const skills = [
   {
     image: SkillImg1,
+    skill:"HTML5"
   },
   {
     image: SkillImg2,
+    skill:"CSS3"
   },
   {
     image: SkillImg3,
+    skill:"JavaSript"
   },
   {
     image: SkillImg4,
+    skill:"React"
   },
   {
     image: SkillImg5,
+    skill:"Bootstrap"
   },
   {
     image: SkillImg6,
+    skill:"Node.js"
   },
   {
     image: SkillImg7,
+    skill:"Git"
   },
   {
     image: Chakra,
+    skill:"Chakra"
   },
   {
-    image: mui,
+    image: tailwind,
+    skill:"Tailwind"
   },
+  {
+    image: materialui,
+    skill:"Material-UI"
+  },
+
 ];
 
 // services

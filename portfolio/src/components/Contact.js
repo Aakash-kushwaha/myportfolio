@@ -6,7 +6,7 @@ import { social } from '../data';
 
 const Contact = () => {
   return (
-    <section  className='section bg-primary md:mt-[-600px]' id='contact'>
+    <section  className='section bg-black md:mt-[-600px]' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
@@ -27,7 +27,7 @@ const Contact = () => {
               console.log("h",href)
               return (
                 
-                <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
+                <div className='flex flex-col lg:flex-row gap-x-4 md:mt-80 lg:mt-5' key={index}>
                   <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
                    <a href={href} target="_blank">{icon} </a> 
                   </div>
@@ -41,12 +41,12 @@ const Contact = () => {
               );
             })}
           </div>
-          <form method="POST" action="https://getform.io/f/2dbef631-78cd-4622-979b-91718a4a9404" className='flex flex-col max-w-[600px] w-full'>
+          <form method="POST" action="https://getform.io/f/2dbef631-78cd-4622-979b-91718a4a9404" className='flex flex-col max-w-[600px] w-full m-auto'>
         
           <input className='bg-[#fffff] p-2 text-black' type="text" placeholder='Name' name='name' />
           <input className='my-4 p-2 bg-[#fffff] text-black' type="email" placeholder='Email' name='email' />
           <textarea className='bg-[#fffff] p-2 text-black' name="message" rows="10" placeholder='Message'></textarea>
-          <button className='text-white border-2 hover:bg-pink-800 hover:border-pink-800 px-4 py-3 my-8 mx-auto flex items-center'>Let's Colaborate</button>
+          <button className='text-white border-2 hover:hover:bg-accent  px-4 py-3 my-8 mx-auto flex items-center'>Let's Colaborate</button>
       </form>
 
         </div>

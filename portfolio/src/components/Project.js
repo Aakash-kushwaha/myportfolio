@@ -8,8 +8,8 @@ const Project = ({ item }) => {
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
       <div style={{display:"flex",gap:"1rem"}}>
-      <a href={item.code} target="_blank" rel="noreferrer"><button  style={{border:"1px solid grey",padding:".25rem" }}>Code</button></a>
-      <a href={item.demo} target="_blank" rel="noreferrer"> <button style={{border:"1px solid grey",padding:".25rem"}}>Demo</button> </a>
+      <a href={item.code} target="_blank" rel="noreferrer"><button  className='hover:bg-black' style={{border:"1px solid grey",padding:".25rem",fontSize:"20px" }}>Code</button></a>
+      <a href={item.demo} target="_blank" rel="noreferrer"> <button style={{border:"1px solid grey",padding:".25rem",fontSize:"20px"}}>Demo</button> </a>
      
       </div>
       
