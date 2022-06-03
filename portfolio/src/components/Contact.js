@@ -43,9 +43,9 @@ const Contact = () => {
           </div>
           <form method="POST" action="https://getform.io/f/2dbef631-78cd-4622-979b-91718a4a9404" className='flex flex-col max-w-[600px] w-full m-auto'>
         
-          <input className='bg-[#fffff] p-2 text-black' type="text" placeholder='Name' name='name' />
-          <input className='my-4 p-2 bg-[#fffff] text-black' type="email" placeholder='Email' name='email' />
-          <textarea className='bg-[#fffff] p-2 text-black' name="message" rows="10" placeholder='Message'></textarea>
+          <input className='bg-[#fffff] p-2 text-black' type="text" placeholder='Name' name='name' required/>
+          <input className='my-4 p-2 bg-[#fffff] text-black' type="email" placeholder='Email' name='email' required/>
+          <textarea className='bg-[#fffff] p-2 text-black' name="message" rows="10" placeholder='Message' required></textarea>
           <button className='text-white border-2 hover:hover:bg-accent  px-4 py-3 my-8 mx-auto flex items-center'>Let's Colaborate</button>
       </form>
 
