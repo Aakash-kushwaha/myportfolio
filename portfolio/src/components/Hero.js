@@ -32,7 +32,7 @@ const Hero = () => {
               Work with me
             </button></a> */}
             
-           <a href={Aakash} target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
+           <a href="https://docs.google.com/document/d/18sfiaLwCKBe35CUC5Sdw94FdK9_9QLEbifO8nyCXUrE/edit?usp=sharing" target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
             </div>
            
           </div>

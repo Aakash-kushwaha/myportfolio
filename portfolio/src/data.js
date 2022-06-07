@@ -263,13 +263,13 @@ export const contact = [
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
     description: 'Email me at aakash113114@gmail.com',
-    href:""
+   
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
     subtitle: 'Bahadurgarh , 124507 , Haryana',
-    href:""
+   
   },
   {
     icon: <FiLinkedin />,

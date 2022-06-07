@@ -35,7 +35,7 @@ const Contact = () => {
                   <div>
                   <a href={href} target="_blank"> <h4 className='font-body text-xl mb-1'>{title}</h4></a> 
                     <p className='mb-1 text-paragraph'>{subtitle}</p>
-                   <a href=""><p className='text-accent font-normal '>{description}</p></a> 
+                   <a ><p className='text-accent font-normal '>{description}</p></a> 
                   </div>
                 </div>
               );
