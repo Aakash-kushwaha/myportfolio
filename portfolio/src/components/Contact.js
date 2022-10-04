@@ -6,7 +6,7 @@ import { social } from '../data';
 
 const Contact = () => {
   return (
-    <section  className='section bg-black md:mt-[-600px]' id='contact'>
+    <section  className='section bg-black md:mt-[-600px] lg:mt-[-100px]' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>

@@ -22,7 +22,7 @@ const About = () => {
                 Aakash
               </h2>
               <p className='mb-4 text-accent'>
-                 Frontend Web Developer
+                 FullStack - Web Developer
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>

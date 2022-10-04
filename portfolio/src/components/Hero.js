@@ -9,14 +9,14 @@ import contact from "./Contact"
 const Hero = () => {
   return (
     <section
-      id='home'
-      className='lg:h-[89vh] flex items-center bg-black py-32 lg:py-0 overflow-hidden'
+      id='home' 
+      className='lg:h-[89vh] flex items-center bg-black py-32 lg:py-0 overflow-hidden '
     >
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
-              Hey, I'm Aakash! 👋
+              Hey, I'm Aakash Kushwaha! 👋
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               I Build & Design <br /> Web Interfaces.
@@ -32,7 +32,7 @@ const Hero = () => {
               Work with me
             </button></a> */}
             
-           <a href="https://docs.google.com/document/d/18sfiaLwCKBe35CUC5Sdw94FdK9_9QLEbifO8nyCXUrE/edit?usp=sharing" target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
+           <a href="https://drive.google.com/file/d/1CbC6zNLuRcEPlNJasHw2Tj7nUAquCB9K/view?usp=sharing" target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
             </div>
            
           </div>

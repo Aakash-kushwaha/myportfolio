@@ -22,10 +22,10 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 // projects images
 import Project1 from './assets/img/projects/nordstrom1.png';
 import Project2 from './assets/img/projects/flipkart1.png';
-import Project3 from './assets/img/projects/sephora1.png';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project4 from './assets/img/projects/beautybebo.png';
+import Project5 from './assets/img/projects/crickinfo.png';
+import project6 from "./assets/img/projects/cronometer.png"
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -39,6 +39,12 @@ import Chakra from './assets/img/skills/Chakra.png';
 import SkillImg5 from './assets/img/skills/bootstrap.png';
 import tailwind from './assets/img/skills/tailwind.png';
 import materialui from './assets/img/skills/materialui.png';
+import mongodb from './assets/img/skills/mongodb.png';
+import mongoose from './assets/img/skills/mongoose.png';
+import redux from './assets/img/skills/redux.png';
+import express from './assets/img/skills/express.png';
+
+import typescript from './assets/img/skills/typescript.png';
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
@@ -108,12 +114,44 @@ export const brands = [
 
 // projects
 export const projectsData = [
+
+  {
+    id: '6',
+    image: project6,
+    name: 'Cronometer',
+    // category: 'branding',
+    description:"Cronometer is the most accurate, comprehensive nutrition tracking app on earth.",
+    code:"https://github.com/Aakash-kushwaha/Beauty-Bebo",
+    demo:"https://coronometer6198.netlify.app/",
+    TechStack: "TeckStack : React || React-Redux || JavaScript || Chakra-ui || React-Slick || Node.js || Mongodb || Mongoose || Express ",
+  },
+
+  {
+    id: '4',
+    image: Project4,
+    name: 'Beauty Bebo',
+    // category: 'branding',
+    description:"Beauty Bebo is India’s fastest growing online retail store for consmetics and healthcare.",
+    code:"https://github.com/Aakash-kushwaha/aberrant-coast-299",
+    demo:"https://beauty-bebo-website.netlify.app/",
+    TechStack: "TeckStack : React || React-Redux || Chakra-ui || Tailwind || React-Slick || JavaScript || Node.js || Mongodb || Mongoose || Express",
+  },
+  {
+    id: '5',
+    image: Project5,
+    name: 'Crickinfo',
+    // category: 'branding',
+    description:"ESPN cricinfo (formerly known as Cricinfo or CricInfo) is a sports news website exclusively for the game of cricket. ",
+    code:"https://github.com/Aakash-kushwaha/Honest--wing-5796",
+    demo:"https://crickinfo.netlify.app/",
+    TechStack: "TeckStack : React || React-Redux || Chakra-ui || React-Slick || JavaScript",
+  },
   {
     id: '1',
     image: Project1,
     name: 'Nordstormrack',
     // category: 'UI/UX design',
-    description:"Nordstrom launched in 2014, while Nordstrom Rack launched in 2018.  the department store is renown for its collection of high-end fashion, homewares, and accessories. ",
+    description:"Nordstrom launched in 2014, while Nordstrom Rack launched in 2018.the department store is renown for its collection of high-end fashion, homewares, and accessories. ",
   
     code:"https://github.com/Aakash-kushwaha/NordstromRack",
     demo:"https://startling-hotteok-ee84f0.netlify.app/",
@@ -128,17 +166,8 @@ export const projectsData = [
     code:"https://github.com/Aakash-kushwaha/Flipkart-Clone",
     demo:"https://aakash-kushwaha.github.io/Flipkart-Clone/",
     TechStack: "TeckStack :HTML5 || CSS3 || JAVASCRIPT || Bootstrap || React-Slick ",
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'Sephora',
-    // category: 'branding',
-    description:"Sephora is an E-commerce online store which is located in the U.S Which allow to buy products . It is a powerful beauty presence in countries around the world. ",
-    code:"https://github.com/Aakash-kushwaha/sephora",
-    demo:"https://epic-meninsky-be2645.netlify.app/",
-    TechStack: "TeckStack : HTML5 || CSS3 || JAVASCRIPT",
-  },
+  }
+
  
 ];
 
@@ -177,12 +206,24 @@ export const skills = [
     skill:"React"
   },
   {
-    image: SkillImg5,
-    skill:"Bootstrap"
+    image: redux,
+    skill:"Redux"
   },
   {
     image: SkillImg6,
     skill:"Node.js"
+  },
+  {
+    image: mongodb,
+    skill:"Mongodb"
+  },
+  {
+    image: mongoose,
+    skill:"Mongoose"
+  },
+  {
+    image: express,
+    skill:"Express"
   },
   {
     image: SkillImg7,
@@ -200,6 +241,14 @@ export const skills = [
     image: materialui,
     skill:"Material-UI"
   },
+  {
+    image: SkillImg5,
+    skill:"Bootstrap"
+  },
+  {
+    image: typescript,
+    skill:"Typescript"
+  }
 
 ];
 
