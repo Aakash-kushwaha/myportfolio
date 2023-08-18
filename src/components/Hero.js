@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 // import woman image
 import aakash from '../assets/img/aakash.png';
-import Aakash from "./Aakash.pdf"
+import Aakash from "./Aakash_Resume.pdf"
 import contact from "./Contact"
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
               Work with me
             </button></a> */}
             
-           <a href="https://drive.google.com/file/d/1CbC6zNLuRcEPlNJasHw2Tj7nUAquCB9K/view?usp=sharing" target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
+           <a href="https://drive.google.com/file/d/1WmSnMQjq1vQtFnD_G6yXSI-RvcSAcCXV/view?usp=sharing" target="_blank" rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
             </div>
            
           </div>

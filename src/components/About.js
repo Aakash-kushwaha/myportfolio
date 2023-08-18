@@ -27,11 +27,11 @@ const About = () => {
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
                 Hey my name is Aakash , I live in Bahadurgarh , India. 
-                I am a Front End developer with hands on project experience,  building websites and web applications . 
+                I am a MERN STACK developer with hands on project experience,  building websites and web applications . 
                 I am passoniate about building excellent software that imporess the lives of those around me.
                  I specialize in creating software for clients ranging from individuals and small-business all the way to large enterprise corporation. 
                 What would you do if you had a software expert available at your fingerpoints.
-                My role is to write and style the front-end and backend components that meet the requirements of our mocks and fulfill our user stories. <br />
+                My role is to write and style the front-end and back-end components that meet the requirements of our mocks and fulfill our user stories. <br />
                 <br />
               </p>
             </div>

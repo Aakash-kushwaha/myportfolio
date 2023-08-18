@@ -36,7 +36,7 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import Chakra from './assets/img/skills/Chakra.png';
-import SkillImg5 from './assets/img/skills/bootstrap.png';
+import SkillImg5 from './assets/img/skills/Bootstrap.png';
 import tailwind from './assets/img/skills/tailwind.png';
 import materialui from './assets/img/skills/materialui.png';
 import mongodb from './assets/img/skills/mongodb.png';
