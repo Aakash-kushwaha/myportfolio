@@ -132,7 +132,7 @@ export const projectsData = [
     name: 'Beauty Bebo',
     // category: 'branding',
     description:"Beauty Bebo is India’s fastest growing online retail store for consmetics and healthcare.",
-    code:"https://.com/Aakash-kushwaha/Beauty-Bebo",
+    code:"https://github.com/Aakash-kushwaha/Beauty-Bebo",
     demo:"https://beauty-bebo-website.netlify.app/",
     TechStack: "TeckStack : React || React-Redux || Chakra-ui || Tailwind || React-Slick || JavaScript || Node.js || Mongodb || Mongoose || Express",
   },
